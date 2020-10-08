@@ -1,16 +1,12 @@
-import Link from "next/link"
+import Layout from "../components/Layout";
 
 const About = () => {
-  return <div>
-    <div>
-      <h1>About</h1>
-      <Link href="/">
-        <a > Home</a>
-      </Link>
+  return (
+    <Layout title="About Page">
       <p>A Javascript programmer</p>
-      <img src="../static/js-logo.png" alt="javascript logo"/>
-    </div>
-  </div>;
+      <img src="../static/js-logo.png" alt="javascript logo" />
+    </Layout>
+  );
 };
 
 export default About;

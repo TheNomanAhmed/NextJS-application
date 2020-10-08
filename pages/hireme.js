@@ -1,12 +1,14 @@
-const Hireme = () => {
-    return (
-        <div>
-            <h1>Hire Me</h1>
-            <p>You can hire me at <a href="mailto:nomanahmed478@gmail.com">nomanahmed478@gmail.com</a> 
-            </p>
-            
-        </div>
-    )
-}
+import Layout from "../components/Layout";
 
-export default Hireme
+const Hireme = () => {
+  return (
+    <Layout title="Hire me">
+      <p>
+        You can hire me at{" "}
+        <a href="mailto:nomanahmed478@gmail.com">nomanahmed478@gmail.com</a>
+      </p>
+    </Layout>
+  );
+};
+
+export default Hireme;
